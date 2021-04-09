@@ -1,0 +1,164 @@
+body{
+    margin :0;
+    font-family: 'Mukta', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 40px;
+    text-align:center;
+    margin-top: 10%;
+}
+
+h5{
+    font-size: 15px;
+    color:grey;
+    text-align:center ;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.containerr{
+    font-size: 17px;
+    color:grey;
+    text-align:center ;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 5%;
+}
+.container{
+    color: dimgray;
+}
+.name1{
+    color: cyan;
+}
+.name2{
+    width :40%;
+    float :left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.name2 img{
+    margin-top: 50px;
+    width:100%;
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    background-image: url(images/header-bg.png);
+    background-image: no repeat;
+    background-size: 100% 100%;
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(to right,blue ,cyan);
+    padding:10px 20px;
+    border-radius: 5px;
+    color:papayawhip;
+    font-weight: bold;
+}
+.namex img{
+    margin-top: 50px;
+    width:100%;
+}
+.namex{
+   
+    width :40%;
+    float :left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.buttonmid{
+    text-decoration: none;
+    background-image: linear-gradient(to right,tomato ,cyan);
+    padding:10px 20px;
+    border-radius: 5px;
+    color:papayawhip;
+    font-weight: bold;
+}
+.mid-banner{
+    background-image: url(images/biography-bg.png);
+    background-image: no repeat;
+    background-size: 100% 100%;
+    
+}
+.mid-banner2{
+    background-image: url(images/latest-work-bg.png);
+    background-image: no repeat;
+    background-size: 100% 100%;
+}
+
+.column1 {
+    float:left;
+    width: 28%;
+    padding-left:50px ;
+    size:80% 80%;
+  }
+  .column2{
+        float:left;
+        width:28%;
+        padding-left:50px ;
+        size:80% 80%;
+  }
+  .column3{
+        float:right;
+        width: 28%;
+        padding-right:50px ;
+        size:80% 80%;
+      
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
+.foot-banner{
+    background-image: url(images/footer-bg.png);
+    background-image: no repeat;
+    background-size: 100% 100%;
+}
+.containerrr{
+    
+    height:70px;
+    width:40%;
+    padding:30px 30px;
+    margin-left:30%;
+    background-color: cyan;
+    text-align: center;
+    border-radius: 10px;
+    color:black;
+    font-weight:bold;
+
+}
+.www{
+      font-size: 120%;
+      margin-top: 60px;
+      text-align: center;
+    
+      
+}
+.xyz{
+    margin-top: 80px;
+    margin-left:30px;
+    text-align: center;
+    font-size: 10px;
+
+}
+.YY{
+    font-size: 20px;
+    color:coral
+}
